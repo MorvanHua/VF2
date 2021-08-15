@@ -4,13 +4,6 @@ This is a simple implementation of the VF2 algorithm.
 
 The VF2 algorithm is used for (sub)graph isomorphism task.
 
-
-
-Actually, this code is written for a homework of the Graph Data Management course in Peking University.
-Since I don't have gold answers to the queries yet, the correctness of the code is not guaranteed. (I only manually checked a few results produced by this code, and it seems fine up to now)
-
-Therefore, please don't use this code directly in product environment.
-
 #Project Structure
 *   doc: contains the VF2 paper
 *   data: experiment data
@@ -25,7 +18,7 @@ Therefore, please don't use this code directly in product environment.
 *   wip.VF2.runner: main function
 *   wip.VF2.graph: Graph, Node and Edge classes. These classes describe a graph.
 *   wip.VF2.core: The VF2 class contains the main logic of VF2 algorithm. The State class is the state described in the paper, and it has some utility function to manipulate the a state. The Pair class is just a simple implementation of a (key, value) pair class.
-  
+
 
 #Usage
 The main function can be called by passing command line arguments:
